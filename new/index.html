@@ -1,0 +1,121 @@
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=utf-8"/></head><body><style>.header {
+  background-color: lightgray;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center; }
+
+.header__image {
+  margin: 40px;
+  border-radius: 10%;
+  height: 200px;
+  width: 200px; }
+
+.header__content {
+  padding-top: 20px;
+  padding-right: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: stretch; }
+  .header__content > p {
+    white-space: pre-wrap;
+    font-size: 24px;
+    line-height: 1.3; }
+
+.work {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap; }
+
+.workitem {
+  margin: 20px;
+  flex: 0 1 350px;
+  background-color: white;
+  box-shadow: 0px 0px 6px rgba(0, 0, 0, 0.5);
+  border-radius: 5px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column; }
+
+.workitem__image {
+  padding-top: 60%;
+  background-position: center;
+  background-repeat: no-repeat; }
+
+.workitem__title-subtitle {
+  flex: 1 0 auto;
+  margin-left: 20px; }
+
+.workitem__title {
+  font-weight: bold;
+  margin-bottom: 5px; }
+
+.workitem__subtitle {
+  font-weight: normal;
+  margin-top: 5px; }
+
+.wi__content {
+  position: relative;
+  height: auto;
+  flex-grow: 1; }
+  .wi__content > a {
+    position: absolute;
+    left: 5px;
+    bottom: 5px; }
+
+.wi__title-duration {
+  display: flex;
+  flex-direction: row;
+  align-items: center; }
+
+.wi__text {
+  padding: 20px;
+  padding-top: 0px; }
+
+.workitem__duration {
+  padding-right: 20px;
+  color: gray;
+  text-align: right; }
+
+.sidebar {
+  background: skyblue;
+  display: flex;
+  flex-direction: column;
+  flex: 0 0 250px; }
+  .sidebar a {
+    padding: 20px; }
+
+body {
+  margin: 0px; }
+
+#container {
+  font-family: Arial;
+  text-align: justify; }
+
+.main-content {
+  display: flex;
+  flex-direction: row; }
+
+.main {
+  display: flex; }
+</style><div id="container"><div class="header"><img class="header__image" src="./assets/loicpadier.jpg" alt="Picture of Loïc Padier"/><div class="header__content"><h1>Loïc Padier</h1><p>I&#x27;m a software engineer at PATH Travel in Barcelona helping revolutionize business travel.
+
+Below, you&#x27;ll find information on work and projects I&#x27;ve done, and how to contact me.</p></div></div><div class="main-content"><div class="sidebar"><a href="mailto:loic.padier@gmail.com">loic.padier@gmail.com</a><a href="skype:loic.padier?add">Skype</a><a href="https://github.com/lPadier" target="_blank">GitHub</a><a href="https://linkedin.com/in/loicpadier" target="_blank">LinkedIn</a><a href="./loicpadier.pdf" target="_blank">Resume</a></div><div class="main"><div class="work"><div class="workitem"><div class="workitem__image" style="background-image:url(./assets/path_logo_white.svg);background-color:#F9555D;background-size:auto 60%;"></div><div class="wi__content"><div class="wi__title-duration"><div class="workitem__title-subtitle"><h3 class="workitem__title">PATH Travel</h3><h4 class="workitem__subtitle">Front-end engineer</h4></div><div class="workitem__duration">6 months</div></div><div class="wi__text"><p>I worked on several projects as part for the front-end team</p>
+<ul>
+<li>Building the <a href="http://path.travel">primary website</a> for the company</li>
+<li>Working on the iOS application and prototypes for this app</li>
+<li>Overhauling the pasenger portal using React. Most notably,
+creating a Metro inspired interface and admin interface in
+order to simplify CRUD operations on the tiles.</li>
+</ul>
+</div><a href="http://path.travel">Site</a></div></div><div class="workitem"><div class="workitem__image" style="background-image:url(./assets/voyages-sncf.png);background-color:white;background-size:auto 60%;"></div><div class="wi__content"><div class="wi__title-duration"><div class="workitem__title-subtitle"><h3 class="workitem__title">voyages-sncf.com (VSC)</h3><h4 class="workitem__subtitle">Front-end intern</h4></div><div class="workitem__duration">4 months</div></div><div class="wi__text"><p>I designed and implemented a SOAP client
+single-page application using Grails and AngularJS for a webservice
+used by VSC for train reservations. This web interface is used to aid in the
+development and testing of this webservice.</p>
+</div><a href="http://www.voyages-sncf.com/">Site</a></div></div><div class="workitem"><div class="workitem__image" style="background-image:url(./assets/ec-nantes.jpg);background-size:auto 60%;"></div><div class="wi__content"><div class="wi__title-duration"><div class="workitem__title-subtitle"><h3 class="workitem__title">École Centrale de Nantes</h3><h4 class="workitem__subtitle"></h4></div><div class="workitem__duration"></div></div><div class="wi__text"><p>I wrote a web application using PHP and MySQL. This application
+allows students to register for or unregister from lab sessions for the courses
+they are taking. I used AJAX to validate user input before confirming registration.</p>
+</div><a href="http://www.ec-nantes.fr/">Site</a></div></div><div class="workitem"><div class="workitem__image" style="background-image:url(./assets/debreuil.jpg);background-size:80%;"></div><div class="wi__content"><div class="wi__title-duration"><div class="workitem__title-subtitle"><h3 class="workitem__title">Debreuil Systems</h3><h4 class="workitem__subtitle"></h4></div><div class="workitem__duration">1 month</div></div><div class="wi__text"><p>I wrote several programs in C to modulate and demodulate digital
+information using FSK and QAM, as well as send and receive the modulated
+information using UDP.</p>
+</div><a href="http://debreuil.fr/">Site</a></div></div></div></div></div></div></body></html>
